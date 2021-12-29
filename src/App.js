@@ -38,21 +38,21 @@ class App extends React.Component {
     let twitterURL = `https://twitter.com/intent/tweet?hashtags=quotes&text=${encodeURIComponent(this.state.quote + '\n- ' + this.state.author)}`;
     // let tweetLink = `https://twitter.com/intent/tweet?hashtags=quotes&text=${encodeURIComponent(this.state.currentQuote.quote + '\n - ' + this.state.currentQuote.author)}`;
     return (
-      <div class="quote-wrapper">
+      <div className="quote-wrapper">
         <div id="quote-box">
-          <blockquote class="quote" id="text">
-            <i class="fas fa-quote-left"></i> {this.state.quote + " "}
-            <i class="fas fa-quote-right"></i>
+          <blockquote className="quote" id="text">
+            <i className="fas fa-quote-left"></i> {this.state.quote + " "}
+            <i className="fas fa-quote-right"></i>
             <p id="author">{this.state.author}</p>
           </blockquote>
 
-          <div class="card-bottom">
+          <div className="card-bottom">
             <a href={twitterURL} target="_blank" rel="noreferrer" id="tweet-quote">
               <div id="icon" title='Tweet this quote!'>
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </div>
             </a>
-            <div class="btn">
+            <div className="btn">
               <button
                 id="new-quote"
                 onClick={this.displayQuote}

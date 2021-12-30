@@ -4,7 +4,7 @@ You can download the zip file from the GUI or clone the repo using the following
 ### `git clone https://github.com/liyaquath-code/React-Random-Quote-Generator.git`
 
 
-Note: Make sure you have Node.js installed before performing the follwing steps
+Note: Make sure you have Node.js installed before performing the following steps
 
 ### `npm i`
 

@@ -1,6 +1,8 @@
 # React-Random-Quote-Generator
 
-You can download the zip file from the GUI or clone the repo using the following command.\
+Generates a random quote and has the ability to tweet the generated quote. This app is built using React.
+
+You can download the zip file from the GUI or clone the repo using the following command.
 ### `git clone https://github.com/liyaquath-code/React-Random-Quote-Generator.git`
 
 
